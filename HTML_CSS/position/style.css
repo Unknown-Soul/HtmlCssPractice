@@ -1,0 +1,30 @@
+.container{
+    display: inline-flex;
+    border: 2px grey solid;
+}
+
+.item{
+    border-color: red;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border: black solid;
+}
+
+.item2{
+    /* static is default position/
+    /* relative means relative to its normal position: will move from its oirginal postion */
+    /* position: relative;    */
+
+    /* relative to its  parent: absoulte to its parent */
+    /* position: absolute; */
+    
+    /*  relative to its browser window :if we scroll our page out item2 will remain at its place and will not move on scrolling used in cases like chatBox*/
+    /* postion relative to browser window */
+    /* position: fixed; */
+    
+     /* relative to its  parent: absoulte to its browser window . stick at top */
+    position: sticky;
+    left: 50px; 
+    top: 20px;
+}

@@ -1,0 +1,26 @@
+.container{
+    background-color: red;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px;
+    row-gap: 15px;
+    column-gap: 15px;
+    /* 1% of all the width:  aviable; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    background-color: blue;
+    /* // if I remove width:  and height:  it will take all aviable space;; */
+    /* height: 122px;
+    width: 122px;      */
+}
+
+
+/* merge 2 box into 1 */
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

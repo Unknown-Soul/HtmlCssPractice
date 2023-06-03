@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    height: 500px;
+    margin: 500 px;
+    border: 2px grey solid;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* align-items: center;  */
+    /* align-items: flex-end; */
+    justify-content: space-around;
+    flex-wrap: wrap; /*to make it reponsive*/
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column wrap; */
+
+}
+
+.flex-item{
+    background-color: red;
+    border: 2px;
+    padding: 10px;
+    margin: 5px;
+    height: 122px;
+    width: 122px;
+}
+
+.item1{
+    /* sort as per order higer the order the most mast it will be show*/
+    order :3; 
+}
+
+.item3{
+    flex-grow: 2;
+}
+
+.item2{
+    align-self: center;
+}
